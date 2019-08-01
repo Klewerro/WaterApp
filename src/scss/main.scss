@@ -1,5 +1,6 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 
 html {
@@ -11,6 +12,46 @@ html {
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  background-color: $primaryColor;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.glass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__background {
+  }
+
+  &__water {
+    position: absolute;
+    margin-top: 20px;
+  }
+
+  &__number {
+    position: absolute;
+    padding-top: 20px;
+    font-size: 112px;
+    margin: 0;
+    font-family: Roboto;
+    font-weight: 700;
+  }
+}
+
+.buttons {
+  margin-top: 48px;
+  padding: 20px;
+  background-color: red;
+  width: 400px;
+}
+
+
