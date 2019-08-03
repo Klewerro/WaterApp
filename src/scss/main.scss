@@ -54,6 +54,14 @@ main {
   flex-direction: column;
   align-items: center;
   
+
+  &__hover_animation {
+    transition: transform .2s ease-in-out;
+    &:hover {
+      transform: scaleX(1.1);
+    }
+  }
+
   &__add {
     width: 216px;
     height: 47px;
