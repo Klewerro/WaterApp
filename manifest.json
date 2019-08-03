@@ -1,12 +1,12 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
+  "name": "WaterApp: PWA",
+  "short_name": "WaterApp",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/wtf-gulp-starter/",
-  "start_url": "/wtf-gulp-starter/",
+  "scope": "/WaterApp/",
+  "start_url": "/WaterApp/",
   "icons": [
     {
       "src": "assets/pwa/icons/icon-72x72.png",
