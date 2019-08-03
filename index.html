@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>WaterApp | Index</title>
+  <meta name="description" content="Description" />
+
+  <meta property="og:title" content="WaterApp" />
+  <meta property="og:description" content="Aplikacja do zapisywania liczby wypitych szklanek wody. Optymalnie człowiek powinien pić około dziesięciu szklanek wody dziennie." />
+  <meta property="og:url" content="" />
+  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+  <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
+
+  <link rel="icon" type="image/png" href="assets/pwa/icons/icon-192x192.png" />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+  <main>
+    <section class="glass">
+      <img class="glass__background" src="assets/img/glass.svg" alt="">
+      <img class="glass__water" src="assets/img/water.svg" alt="">
+      <p class="glass__number glass__number--js">0</p>
+    </section>
+
+    <section class="buttons">
+      <button class="buttons__add buttons__hover_animation buttons__add--js" name="addGlassButton">dodaj szklankę</button>
+      <button class="buttons__remove buttons__hover_animation buttons__remove--js" name="removeGlassButton">usuń szklankę</button>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
